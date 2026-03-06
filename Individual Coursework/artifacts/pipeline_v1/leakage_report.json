@@ -1,0 +1,270 @@
+{
+  "split_feature_summary": [
+    {
+      "split": "train",
+      "feature": "query_hypothyroid",
+      "baseline_rate": 0.04541241890639481,
+      "max_abs_gap_pp": 4.282287521125226,
+      "worst_value": "t",
+      "worst_value_n": 170,
+      "deterministic_flag": false
+    },
+    {
+      "split": "train",
+      "feature": "query_hyperthyroid",
+      "baseline_rate": 0.04541241890639481,
+      "max_abs_gap_pp": 1.4737572280627937,
+      "worst_value": "t",
+      "worst_value_n": 163,
+      "deterministic_flag": false
+    },
+    {
+      "split": "train",
+      "feature": "TSH_measured",
+      "baseline_rate": 0.04541241890639481,
+      "max_abs_gap_pp": 4.230682884428301,
+      "worst_value": "n",
+      "worst_value_n": 322,
+      "deterministic_flag": false
+    },
+    {
+      "split": "train",
+      "feature": "T3_measured",
+      "baseline_rate": 0.04541241890639481,
+      "max_abs_gap_pp": 2.860569621731918,
+      "worst_value": "n",
+      "worst_value_n": 476,
+      "deterministic_flag": false
+    },
+    {
+      "split": "train",
+      "feature": "TT4_measured",
+      "baseline_rate": 0.04541241890639481,
+      "max_abs_gap_pp": 4.541241890639481,
+      "worst_value": "n",
+      "worst_value_n": 165,
+      "deterministic_flag": true
+    },
+    {
+      "split": "train",
+      "feature": "T4U_measured",
+      "baseline_rate": 0.04541241890639481,
+      "max_abs_gap_pp": 4.541241890639481,
+      "worst_value": "n",
+      "worst_value_n": 164,
+      "deterministic_flag": true
+    },
+    {
+      "split": "train",
+      "feature": "FTI_measured",
+      "baseline_rate": 0.04541241890639481,
+      "max_abs_gap_pp": 4.541241890639481,
+      "worst_value": "n",
+      "worst_value_n": 164,
+      "deterministic_flag": true
+    },
+    {
+      "split": "train",
+      "feature": "TBG_measured",
+      "baseline_rate": 0.04541241890639481,
+      "max_abs_gap_pp": 2.817103959604998,
+      "worst_value": "y",
+      "worst_value_n": 174,
+      "deterministic_flag": false
+    },
+    {
+      "split": "val",
+      "feature": "query_hypothyroid",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 1.678494291885221,
+      "worst_value": "t",
+      "worst_value_n": 35,
+      "deterministic_flag": false
+    },
+    {
+      "split": "val",
+      "feature": "query_hyperthyroid",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 0.8697682563773277,
+      "worst_value": "t",
+      "worst_value_n": 37,
+      "deterministic_flag": false
+    },
+    {
+      "split": "val",
+      "feature": "TSH_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "n",
+      "worst_value_n": 70,
+      "deterministic_flag": true
+    },
+    {
+      "split": "val",
+      "feature": "T3_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 2.5938895762125442,
+      "worst_value": "n",
+      "worst_value_n": 103,
+      "deterministic_flag": false
+    },
+    {
+      "split": "val",
+      "feature": "TT4_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "n",
+      "worst_value_n": 41,
+      "deterministic_flag": true
+    },
+    {
+      "split": "val",
+      "feature": "T4U_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "n",
+      "worst_value_n": 41,
+      "deterministic_flag": true
+    },
+    {
+      "split": "val",
+      "feature": "FTI_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "n",
+      "worst_value_n": 40,
+      "deterministic_flag": true
+    },
+    {
+      "split": "val",
+      "feature": "TBG_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "y",
+      "worst_value_n": 42,
+      "deterministic_flag": true
+    },
+    {
+      "split": "test",
+      "feature": "query_hypothyroid",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 5.464362850971923,
+      "worst_value": "t",
+      "worst_value_n": 30,
+      "deterministic_flag": false
+    },
+    {
+      "split": "test",
+      "feature": "query_hyperthyroid",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "t",
+      "worst_value_n": 35,
+      "deterministic_flag": true
+    },
+    {
+      "split": "test",
+      "feature": "TSH_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "n",
+      "worst_value_n": 63,
+      "deterministic_flag": true
+    },
+    {
+      "split": "test",
+      "feature": "T3_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 1.565340119325108,
+      "worst_value": "n",
+      "worst_value_n": 101,
+      "deterministic_flag": false
+    },
+    {
+      "split": "test",
+      "feature": "TT4_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "n",
+      "worst_value_n": 34,
+      "deterministic_flag": true
+    },
+    {
+      "split": "test",
+      "feature": "T4U_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "n",
+      "worst_value_n": 34,
+      "deterministic_flag": true
+    },
+    {
+      "split": "test",
+      "feature": "FTI_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "n",
+      "worst_value_n": 34,
+      "deterministic_flag": true
+    },
+    {
+      "split": "test",
+      "feature": "TBG_measured",
+      "baseline_rate": 0.04535637149028078,
+      "max_abs_gap_pp": 4.535637149028078,
+      "worst_value": "y",
+      "worst_value_n": 35,
+      "deterministic_flag": true
+    }
+  ],
+  "ranked_features": [
+    {
+      "feature": "query_hypothyroid",
+      "max_abs_gap_pp": 5.464362850971923,
+      "mean_abs_gap_pp": 3.8083815546607895,
+      "any_deterministic": false
+    },
+    {
+      "feature": "FTI_measured",
+      "max_abs_gap_pp": 4.541241890639481,
+      "mean_abs_gap_pp": 4.537505396231879,
+      "any_deterministic": true
+    },
+    {
+      "feature": "T4U_measured",
+      "max_abs_gap_pp": 4.541241890639481,
+      "mean_abs_gap_pp": 4.537505396231879,
+      "any_deterministic": true
+    },
+    {
+      "feature": "TT4_measured",
+      "max_abs_gap_pp": 4.541241890639481,
+      "mean_abs_gap_pp": 4.537505396231879,
+      "any_deterministic": true
+    },
+    {
+      "feature": "TSH_measured",
+      "max_abs_gap_pp": 4.535637149028078,
+      "mean_abs_gap_pp": 4.433985727494819,
+      "any_deterministic": true
+    },
+    {
+      "feature": "TBG_measured",
+      "max_abs_gap_pp": 4.535637149028078,
+      "mean_abs_gap_pp": 3.962792752553718,
+      "any_deterministic": true
+    },
+    {
+      "feature": "query_hyperthyroid",
+      "max_abs_gap_pp": 4.535637149028078,
+      "mean_abs_gap_pp": 2.2930542111560666,
+      "any_deterministic": true
+    },
+    {
+      "feature": "T3_measured",
+      "max_abs_gap_pp": 2.860569621731918,
+      "mean_abs_gap_pp": 2.3399331057565234,
+      "any_deterministic": false
+    }
+  ]
+}

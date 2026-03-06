@@ -1,0 +1,28 @@
+{
+  "X_shapes": {
+    "train": [
+      2158,
+      27
+    ],
+    "val": [
+      463,
+      27
+    ],
+    "test": [
+      463,
+      27
+    ]
+  },
+  "feature_count": 27,
+  "class_weight_stats": {
+    "n_train": 2158,
+    "n_negative": 2060,
+    "n_positive": 98,
+    "positive_prevalence": 0.04541241890639481,
+    "scale_pos_weight": 21.020408163265305,
+    "class_weight_balanced": {
+      "0": 0.5237864077669903,
+      "1": 11.010204081632653
+    }
+  }
+}

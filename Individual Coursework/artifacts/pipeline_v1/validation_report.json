@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "missingness_pct": {
+      "TBG": 91.77995573822321,
+      "T3": 21.97281062282643,
+      "TSH": 14.796079671198228,
+      "age": 14.1005374644325,
+      "TT4": 7.872273158393931,
+      "T4U": 7.840657603540942,
+      "FTI": 7.809042048687955,
+      "sex": 2.3079355042681002,
+      "Class": 0.0,
+      "on_thyroxine": 0.0,
+      "pregnant": 0.0,
+      "query_hyperthyroid": 0.0,
+      "query_hypothyroid": 0.0,
+      "thyroid_surgery": 0.0,
+      "on_antithyroid_medication": 0.0,
+      "query_on_thyroxine": 0.0,
+      "sick": 0.0,
+      "tumor": 0.0,
+      "T3_measured": 0.0,
+      "TSH_measured": 0.0,
+      "lithium": 0.0,
+      "goitre": 0.0,
+      "T4U_measured": 0.0,
+      "TT4_measured": 0.0,
+      "FTI_measured": 0.0,
+      "TBG_measured": 0.0
+    },
+    "negative_value_counts": {
+      "age": 0,
+      "TSH": 0,
+      "T3": 0,
+      "TT4": 0,
+      "T4U": 0,
+      "FTI": 0,
+      "TBG": 0
+    },
+    "age_out_of_bounds": 0,
+    "measured_value_consistency": {
+      "TSH_measured->TSH": {
+        "flag_n_but_value_present": 0,
+        "flag_y_but_value_missing": 0
+      },
+      "T3_measured->T3": {
+        "flag_n_but_value_present": 0,
+        "flag_y_but_value_missing": 0
+      },
+      "TT4_measured->TT4": {
+        "flag_n_but_value_present": 0,
+        "flag_y_but_value_missing": 0
+      },
+      "T4U_measured->T4U": {
+        "flag_n_but_value_present": 0,
+        "flag_y_but_value_missing": 0
+      },
+      "FTI_measured->FTI": {
+        "flag_n_but_value_present": 0,
+        "flag_y_but_value_missing": 0
+      },
+      "TBG_measured->TBG": {
+        "flag_n_but_value_present": 0,
+        "flag_y_but_value_missing": 0
+      }
+    },
+    "duplicate_stats": {
+      "exact_duplicates": 77,
+      "feature_duplicates": 78,
+      "label_conflict_groups": 1
+    },
+    "row_count": 3163,
+    "class_counts": {
+      "negative": 3012,
+      "hypothyroid": 151
+    }
+  }
+}

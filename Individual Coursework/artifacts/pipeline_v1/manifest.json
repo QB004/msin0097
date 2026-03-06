@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-03-06T13:24:21.911327Z",
+  "dataset_path": "hypothyroid.csv",
+  "dataset_sha256": "9513c8975d0e1d365e203e9196c422a16b04a3d04db256566fd7fd36b05e31e8",
+  "seed": 42,
+  "split": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "target_col": "Class",
+  "id_col": "__row_id__",
+  "drop_cols": [
+    "TBG"
+  ],
+  "missing_tokens": [
+    "?",
+    "na",
+    "Na",
+    "NA",
+    "None",
+    "nan",
+    "",
+    " "
+  ],
+  "row_count": 3084,
+  "class_counts": {
+    "negative": 2944,
+    "hypothyroid": 140
+  },
+  "split_sizes": {
+    "train": 2158,
+    "val": 463,
+    "test": 463
+  },
+  "reports_written": [
+    "duplicate_resolution_report.json",
+    "leakage_report.json",
+    "model_input_summary.json",
+    "split_report.json",
+    "validation_report.json"
+  ],
+  "id_files": [
+    "train_ids.csv",
+    "val_ids.csv",
+    "test_ids.csv"
+  ],
+  "post_preprocessing": {
+    "feature_count": 27,
+    "transformed_shapes": {
+      "train": [
+        2158,
+        27
+      ],
+      "val": [
+        463,
+        27
+      ],
+      "test": [
+        463,
+        27
+      ]
+    },
+    "class_weight_stats": {
+      "n_train": 2158,
+      "n_negative": 2060,
+      "n_positive": 98,
+      "positive_prevalence": 0.04541241890639481,
+      "scale_pos_weight": 21.020408163265305,
+      "class_weight_balanced": {
+        "0": 0.5237864077669903,
+        "1": 11.010204081632653
+      }
+    },
+    "preprocessor_path": "artifacts\\pipeline_v1\\preprocessor.joblib"
+  },
+  "updated_utc": "2026-03-06T13:24:22.815165Z"
+}

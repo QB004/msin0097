@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "id_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "coverage_ok": true,
+  "prevalence": {
+    "train": 0.04541241890639481,
+    "val": 0.04535637149028078,
+    "test": 0.04535637149028078
+  },
+  "prevalence_diff_pp": {
+    "train": 0.0016828763722956386,
+    "val": 0.003921865239107231,
+    "test": 0.003921865239107231
+  },
+  "signature_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "sizes": {
+    "train": 2158,
+    "val": 463,
+    "test": 463
+  }
+}
